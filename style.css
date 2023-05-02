@@ -34,6 +34,7 @@
 .sec-1-left-side {
     float: left;
     width: 50%;
+    
 }
 
 /* Text positioning for section 1 */
@@ -74,6 +75,109 @@
 }
 
 /* section 1 ends */
+
+/* section 1 media */
+
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+  /* Add your desired styles for 1920px screen size here */
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+  .sec-1-text-postion h1 {
+    font-size: 3em;
+  }
+
+  .sec-1-logo {
+    width: 7%;
+  }
+
+  .sec-1-header-img {
+    width: 60%;
+  }
+}
+
+/* Media query for 768px screen size */
+@media screen and (max-width: 768px) {
+  .sec-1-left-side{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  .sec-1-right-side {
+    width: 100%;
+    margin-bottom: 5%;
+
+  }
+
+  .sec-1-right-side img{
+    margin-bottom: 5%;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .sec-1-text-postion{
+    align-self: center;
+  }
+
+  .sec-1-text-postion h1 {
+    font-size: 4em;
+  }
+
+  .sec-1-text-postion h3 {
+    font-size: 1.4em;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  .sec-1-logo {
+    width: 20%;
+  }
+
+  .sec-1-header-img {
+    width: 80%;
+  }
+
+  .order-now-btn {
+    font-size: 14px;
+    padding: 8px 24px;
+  }
+}
+
+/* Media query for 375px screen size */
+@media screen and (max-width: 375px) {
+  .sec-1-text-postion h1 {
+    font-size: 2.5em;
+  }
+
+  .sec-1-logo {
+    width: 15%;
+  }
+
+  .sec-1-header-img {
+    width: 100%;
+  }
+
+  .order-now-btn {
+    font-size: 12px;
+    padding: 6px 18px;
+  }
+}
+
+/* section 1 media  */
+
+
+
+
+
+
+
+
 
 /* section 2 starts */
 
@@ -150,6 +254,82 @@
 }
 
 /* section 2 ends */
+
+/* section 2 media */
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* Add your desired styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-2-h1-text {
+      font-size: 2.5em;
+    }
+  
+    .sec-2-h4-text,
+    .sec-2-h4-2-text {
+      font-size: 1.2em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 900px) {
+    .sec-2 {
+      flex-direction: column;
+    }
+  
+    .left-half{
+      max-width: 100%;
+      float: none;
+    }
+
+    .left-image{
+        width: 100%;
+      }
+
+    .right-half{
+      width: 100%;
+      float: none;
+    }
+  
+    .sec-2-h1-text {
+      font-size: 2em;
+    }
+  
+    .sec-2-h4-text,
+    .sec-2-h4-2-text {
+      font-size: 1em;
+    }
+  
+    .sec-2-order-now-btn {
+      font-size: 14px;
+      padding: 6px 24px;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 375px) {
+    .sec-2-h1-text {
+      font-size: 1.5em;
+    }
+  
+    .sec-2-h4-text,
+    .sec-2-h4-2-text {
+      font-size: 0.9em;
+    }
+  
+    .sec-2-order-now-btn {
+      font-size: 12px;
+      padding: 4px 18px;
+    }
+  }
+  
+/* section 2 media */
+
+
+
+
 
 /* section 3 starts */
 
