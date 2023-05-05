@@ -61,6 +61,8 @@
     border-radius: 25px;
     cursor: pointer;
     margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 /* Right side container styling for section 1 */
@@ -72,6 +74,11 @@
 /* Header image size for section 1 */
 .sec-1-header-img{
     width: 70%;
+}
+
+.order-now-btn:hover{
+  transition: transform 0.3s; /* Add a smooth transition effect */
+  transform: scale(1.1); /* Enlarge the button by 10% when hovering */
 }
 
 /* section 1 ends */
@@ -236,6 +243,7 @@
 .sec-2-h4-text{
     font-weight: 100;
     font-size: 1.5em;
+    margin-right: 10%;
 }
 
 /* Order Now button styling */
@@ -252,6 +260,13 @@
     cursor: pointer;
     margin-top: 7.5%;
 }
+
+.sec-2-order-now-btn:hover{
+  transition: transform 0.3s; /* Add a smooth transition effect */
+  transform: scale(1.1); /* Enlarge the button by 10% when hovering */
+}
+
+
 
 /* section 2 ends */
 
