@@ -136,7 +136,7 @@
   }
 
   .sec-1-logo {
-    width: 20%;
+    width: 10%;
   }
 
   .sec-1-header-img {
@@ -256,75 +256,136 @@
 /* section 2 ends */
 
 /* section 2 media */
-/* Media query for 1920px screen size */
-@media screen and (max-width: 1920px) {
-    /* Add your desired styles for 1920px screen size here */
+/* Media query for screen width 1920px */
+@media (max-width: 1920px) {
+  /* Adjust the styles for the targeted screen size */
+  .sec-2-h1-text {
+    font-size: 2.5em;
   }
-  
-  /* Media query for 1280px screen size */
-  @media screen and (max-width: 1280px) {
-    .sec-2-h1-text {
-      font-size: 2.5em;
-    }
-  
-    .sec-2-h4-text,
-    .sec-2-h4-2-text {
-      font-size: 1.2em;
-    }
-  }
-  
-  /* Media query for 768px screen size */
-  @media screen and (max-width: 900px) {
-    .sec-2 {
-      flex-direction: column;
-    }
-  
-    .left-half{
-      max-width: 100%;
-      float: none;
-    }
 
-    .left-image{
-        width: 100%;
-      }
+  .sec-2-h4-text,
+  .sec-2-h4-2-text {
+    font-size: 1.3em;
+  }
 
-    .right-half{
-      width: 100%;
-      float: none;
-    }
-  
-    .sec-2-h1-text {
-      font-size: 2em;
-    }
-  
-    .sec-2-h4-text,
-    .sec-2-h4-2-text {
-      font-size: 1em;
-    }
-  
-    .sec-2-order-now-btn {
-      font-size: 14px;
-      padding: 6px 24px;
-    }
+  .sec-2-order-now-btn {
+    font-size: 14px;
+    padding: 6px 25px;
   }
-  
-  /* Media query for 375px screen size */
-  @media screen and (max-width: 375px) {
-    .sec-2-h1-text {
-      font-size: 1.5em;
-    }
-  
-    .sec-2-h4-text,
-    .sec-2-h4-2-text {
-      font-size: 0.9em;
-    }
-  
-    .sec-2-order-now-btn {
-      font-size: 12px;
-      padding: 4px 18px;
-    }
+}
+
+/* Media query for screen width 1280px */
+@media (max-width: 1280px) {
+  /* Adjust the styles for the targeted screen size */
+  .sec-2-h1-text {
+    font-size: 2em;
   }
-  
+
+  .sec-2-right-text-container{
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+
+  .sec-2-h4-text,
+  .sec-2-h4-2-text {
+    font-size: 1.1em;
+  }
+
+  .sec-2-order-now-btn {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+}
+
+/* Media query for screen width 768px */
+@media (max-width: 768px) {
+  /* Adjust the styles for the targeted screen size */
+  .sec-2 {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+  }
+
+  .left-half,
+  .right-half {
+    background-color: black;
+
+  }
+
+  .left-image {
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+  }
+
+  .sec-2-right-text-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 0%;
+    text-align: center;
+
+  }
+
+  .sec-2-h1-text {
+    font-size: 2em;
+  }
+
+  .sec-2-h4-text,
+  .sec-2-h4-2-text {
+    font-size: 1em;
+  }
+
+  .sec-2-order-now-btn{
+    margin-bottom: 10%;
+  }
+
+
+}
+
+
+/* Media query for screen width 500px */
+@media (max-width: 500px) {
+  /* Adjust the styles for the targeted screen size */
+  .sec-2-h1-text {
+    font-size: 1.2em;
+  }
+
+  .sec-2-h4-text,
+  .sec-2-h4-2-text {
+    font-size: 0.9em;
+  }
+
+  .sec-2-order-now-btn {
+    font-size: 8px;
+    padding: 3px 10px;
+  }
+}
+
+/* Media query for screen width 375px */
+@media (max-width: 300px) {
+  /* Adjust the styles for the targeted screen size */
+  .sec-2-h1-text {
+    font-size: 0.8em;
+  }
+
+  .sec-2-h4-text,
+  .sec-2-h4-2-text {
+    font-size: 0.5em;
+  }
+
+  .sec-2-order-now-btn {
+    font-size: 8px;
+    padding: 3px 10px;
+  }
+}
+
 /* section 2 media */
 
 
